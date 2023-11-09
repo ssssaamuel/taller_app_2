@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Buscador de Texto</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Buscador de Texto</h1>
+        <label for="texto">Ingrese un texto:</label>
+        <textarea id="texto" rows="4" cols="50" placeholder="Escribe aquí"></textarea>
+
+        <label for="busqueda">Texto a buscar:</label>
+        <input type="text" id="busqueda" placeholder="Palabra o frase a buscar">
+
+        <button onclick="buscarTexto()">Buscar</button>
+
+        <p id="resultado"></p>
+    </div>
+
+    <script src="ejercicio_6.js"></script>
+</body>
+</html>
